@@ -1,0 +1,23 @@
+Problem Description:
+You are tasked with finding the greatest common divisor (GCD) of two positive integers. The GCD of two numbers is the largest number that divides both of them without leaving a remainder.
+
+To calculate the GCD, you will use Euclid’s Algorithm:
+
+If the second number divides the first number evenly, the GCD is the second number.
+
+Otherwise, replace the first number with the second number, and the second number with the remainder of the first number divided by the second number.
+
+Repeat this process until the remainder is zero; the last non-zero remainder is the GCD.
+
+Your Tasks:
+
+Ask the user to input two positive integers.
+
+Apply Euclid’s Algorithm to compute the GCD.
+
+Print the GCD.
+
+Optionally, print the steps of the algorithm for clarity.
+
+Hint:
+The modulo operator % in Python can be used to find the remainder of a division. You may also use a loop to repeatedly apply the algorithm until you find the GCD.
