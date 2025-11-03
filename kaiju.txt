@@ -1,0 +1,18 @@
+Problem A: Kaiju Threat Levels
+Problem Description:
+Four giant Kaijus are attacking the city! Each Kaiju has a unique DNA string made up of 4
+capital letters (A–Z). Each letter has a numeric value:
+A = 1
+B = 2
+C = 3
+...
+Z = 26
+Your Tasks:
+1. Get the DNA string for Kaiju1, Kaiju2, Kaiju3, and Kaiju4.
+2. Calculate the threat level of each Kaiju by adding up the value of each letter.
+3. Print each Kaiju's threat level.
+4. Determine and print which Kaiju is the most dangerous (i.e., has the highest threat level).
+5. If two or more Kaijus have the same highest threat level, print "It's a tie!".
+Hint:
+There is a function in Python with the letters "d", "o", and "r" that takes a string and returns its
+numerical representation — you may be able to leverage this in your code.

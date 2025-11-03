@@ -40,8 +40,8 @@ kaiju = [name.upper() for name in temp]  # convert all names to uppercase
 threats = {}
 
 for idx, name in enumerate(kaiju):
-    threat_level = sum(ord(char) - 64 for char in name)  # calculate threat for this Kaiju only
-    threats[temp[idx]] = threat_level  # use original name as key
+    threat_level = sum(ord(char) - 64 for char in name)
+    threats[temp[idx]] = threat_level 
 
 strongest_kaiju, max_threat = max(threats.items(), key=lambda item: item[1])
 print(f"The strongest Kaiju is {strongest_kaiju} with a threat level of {max_threat}!")
